@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>A Conta Chegou — O terceiro mandato de Lula em números oficiais</title>
+<meta name="description" content="O que ficou fora do noticiário sobre o governo do PT — e quanto o governo pagou aos veículos que deveriam te contar. Dossiê de 57 páginas com fonte oficial em cada número.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="teia" aria-hidden="true"></canvas>
+
+<!-- ═══════ HERO ═══════ -->
+<header class="hero">
+  <div class="hero__bg" aria-hidden="true"></div>
+  <div class="hero__veu" aria-hidden="true"></div>
+  <canvas class="hero__teia" aria-hidden="true"></canvas>
+
+  <div class="container hero__grade">
+
+    <div class="hero__texto-col">
+      <span class="selo-topo">Arquivo Confidencial · Edição 2026</span>
+
+      <p class="hero__kicker">
+        <span class="pisca"></span>
+        Você não esqueceu. Simplesmente pararam de te contar.
+      </p>
+
+      <h1 class="hero__titulo">A conta<br><em>chegou</em></h1>
+
+      <p class="hero__sub">
+        Saiba o que ficou fora do noticiário — e quanto o governo
+        pagou aos veículos que deveriam te contar
+      </p>
+
+      <p class="hero__desc">Está tudo em documento oficial. Só nunca virou manchete.</p>
+
+      <ul class="lista-check">
+        <li>20 capítulos do que sumiu do ar</li>
+        <li>Órgão, data e fonte em cada número</li>
+        <li>Quanto o governo pagou a cada veículo</li>
+      </ul>
+
+      <a href="#oferta" class="btn btn--principal" data-comprar>
+        Quero meu exemplar por R$ 11,99
+        <span class="btn__sub">Acesso imediato · PDF para celular e computador</span>
+      </a>
+
+      <div class="relogio-mini" data-relogio-mini hidden>
+        <span class="relogio-mini__rot">A oferta de lançamento termina em</span>
+        <div class="relogio-mini__valor">
+          <span data-mini-h>00</span>:<span data-mini-m>00</span>:<span data-mini-s>00</span>
+        </div>
+      </div>
+
+      <div class="hero__prova">
+        <span><strong>57</strong>páginas</span>
+        <span><strong>20</strong>capítulos</span>
+        <span><strong>+80</strong>fontes oficiais</span>
+      </div>
+    </div>
+
+    <div class="hero__capa-col">
+      <div class="capa-flutua">
+        <img src="assets/livro-1-angulo.png"
+             alt="Capa do dossiê Lula e o PT"
+             class="capa-img" width="2145" height="2966" fetchpriority="high">
+      </div>
+      <span class="capa-etiqueta">Entrega em PDF · leia hoje</span>
+    </div>
+
+  </div>
+</header>
+
+<!-- ═══════ FAIXA DE NÚMEROS ═══════ -->
+<div class="faixa-numeros">
+  <div class="container faixa-numeros__grade">
+    <div><strong data-contar="78,7" data-sufixo="%">78,7%</strong><span>dívida bruta sobre o PIB</span></div>
+    <div><strong data-contar="32,40" data-sufixo="%">32,40%</strong><span>carga tributária recorde</span></div>
+    <div><strong data-contar="11469" data-formato="milhar">11.469</strong><span>obras federais paradas</span></div>
+    <div><strong data-contar="6,3" data-prefixo="R$ " data-sufixo=" bi">R$ 6,3 bi</strong><span>rombo no INSS</span></div>
+  </div>
+</div>
+
+
+
+
+<!-- ═══════ CHAMADA ═══════ -->
+<section class="chamada" data-anima>
+  <div class="container">
+    <p class="chamada__linha">Quatro anos de governo</p>
+    <h2 class="chamada__titulo">Tudo o que aconteceu<br>e a mídia escondeu de você</h2>
+    <a href="#oferta" class="btn btn--principal" data-comprar>Abrir o dossiê · R$ 11,99</a>
+  </div>
+</section>
+
+<!-- ═══════ QUEM PAGA A CONTA DA IMPRENSA ═══════ -->
+<section class="sec sec--sangue" data-anima>
+  <div class="container">
+    <span class="eyebrow">A pergunta que ninguém faz no ar</span>
+    <h2 class="sec__titulo">Quem paga a conta<br>de quem deveria te informar?</h2>
+
+    <p class="sec__lead">
+      Talvez a resposta não esteja na redação — esteja no <strong>contrato</strong>.
+    </p>
+
+    <div class="dinheiro-midia">
+      <div class="dm">
+        <strong>R$ 267 mi</strong>
+<span>ao <b>Grupo Globo</b> em publicidade federal — 25,6% de tudo</span>
+      </div>
+      <div class="dm">
+        <strong>R$ 876 mi</strong>
+<span>de propaganda em 2025, contra R$ 531 mi em 2023</span>
+      </div>
+      <div class="dm">
+        <strong>R$ 178 mi</strong>
+<span>só de janeiro a junho de <b>2026</b>, em ano eleitoral</span>
+      </div>
+      <div class="dm">
+        <strong>R$ 3,5 bi</strong>
+<span>em contratos de publicidade em 2025, com as estatais</span>
+      </div>
+    </div>
+
+    <div class="virada">
+      <span class="virada__rot">A virada de 2023</span>
+      <p>
+        <b>Folha</b>, <b>O Globo</b> e <b>Estadão</b> receberam <strong>zero</strong> entre 2020 e 2022.
+        Com o PT de volta, voltaram a receber. O <b>UOL</b> foi de R$ 3 mi para <strong>R$ 18,23 mi</strong>.
+      </p>
+      <p class="virada__tcu">
+        O <strong>TCU</strong> apontou concentração de verba em veículos específicos,
+        <b>especialmente os do Grupo Globo</b>. Sem auditoria pública dos planos de mídia.
+      </p>
+    </div>
+
+    <p class="segredos__nota">
+      Fica a pergunta que a TV nunca vai fazer sobre si mesma:
+      <strong>quem recebe R$ 267 milhões de um governo tem pressa em cobrar esse governo?</strong>
+    </p>
+
+    <div class="cta-linha">
+      <a href="#oferta" class="btn btn--principal" data-comprar>Quero ver os números completos</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ O QUE SUMIU DO NOTICIÁRIO ═══════ -->
+<section class="sec sec--escura" data-anima>
+  <div class="container">
+    <span class="eyebrow">Gatilho</span>
+    <h2 class="sec__titulo">O que a mídia escondeu de você</h2>
+    <p class="sec__lead">Saiu no jornal <strong>uma vez</strong>. Nunca mais foi repetido.</p>
+
+    <div class="segredos" data-segredos>
+
+      <article class="segredo">
+        <span class="segredo__tag">Capítulo 06</span>
+        <h3>A estatal que virou pó em quatro anos</h3>
+        <p class="segredo__oculto">
+Lucro de R$ 3,7 bi em 2021. Prejuízo de R$ 8,5 bi em 2025 e patrimônio <strong>negativo</strong> em R$ 13,1 bi.
+        </p>
+        <button class="segredo__botao" type="button">Revelar</button>
+      </article>
+
+      <article class="segredo">
+        <span class="segredo__tag">Capítulo 12</span>
+        <h3>O desconto que ninguém autorizou</h3>
+        <p class="segredo__oculto">
+De R$ 820 milhões para R$ 3,5 bilhões em dois anos. <strong>Quadruplicou</strong>.
+        </p>
+        <button class="segredo__botao" type="button">Revelar</button>
+      </article>
+
+      <article class="segredo">
+        <span class="segredo__tag">Capítulo 14</span>
+        <h3>A frase de 12 segundos que rompeu com um país</h3>
+        <p class="segredo__oculto">
+Em 48 horas o presidente virou <strong>persona non grata</strong> — inédito no Brasil.
+        </p>
+        <button class="segredo__botao" type="button">Revelar</button>
+      </article>
+
+      <article class="segredo">
+        <span class="segredo__tag">Capítulo 02</span>
+        <h3>A promessa que ele fez por escrito e apagou</h3>
+        <p class="segredo__oculto">
+<strong>25/10/2022</strong>: “Eu, se eleito, serei um presidente de um mandato só”.
+        </p>
+        <button class="segredo__botao" type="button">Revelar</button>
+      </article>
+
+      <article class="segredo">
+        <span class="segredo__tag">Capítulo 07</span>
+        <h3>Metade do país está parada — e é o TCU quem diz</h3>
+        <p class="segredo__oculto">
+11.469 de 22.621 obras paradas. <strong>70% em educação e saúde</strong>.
+        </p>
+        <button class="segredo__botao" type="button">Revelar</button>
+      </article>
+
+      <article class="segredo">
+        <span class="segredo__tag">Capítulo 09</span>
+        <h3>O mapa que dobrou em dois anos</h3>
+        <p class="segredo__oculto">
+O Comando Vermelho foi de 128 para <strong>286 municípios</strong> em dois anos.
+        </p>
+        <button class="segredo__botao" type="button">Revelar</button>
+      </article>
+
+    </div>
+
+    <p class="segredos__nota">Nenhum é boato. Todos com órgão, data e página no dossiê.</p>
+
+    <div class="cta-linha">
+      <a href="#oferta" class="btn btn--principal" data-comprar>Quero ver os outros 14 capítulos</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════ O SISTEMA ═══════ -->
+<section class="sec" data-anima>
+  <div class="container">
+    <span class="eyebrow">Não é acidente</span>
+    <h2 class="sec__titulo">Não foi um caso isolado.<br>Foi o método.</h2>
+    <p class="sec__lead">Cada escândalo é vendido como exceção. Vinte anos contam outra história.</p>
+
+    <div class="sistema">
+      <div class="etapa">
+        <span class="etapa__num">01</span>
+        <h3>O topo do partido, condenado em definitivo</h3>
+<p>O STF condenou o <b>ministro-chefe da Casa Civil</b>, o <b>presidente</b> e o <b>tesoureiro do PT</b>.</p>
+      </div>
+      <div class="etapa">
+        <span class="etapa__num">02</span>
+        <h3>A estatal virou fonte de arrecadação</h3>
+<p>Propina de <b>1% a 5% por contrato</b>, vencedor definido antes do edital. R$ 7,2 bi comprovados.</p>
+      </div>
+      <div class="etapa">
+        <span class="etapa__num">03</span>
+        <h3>O aposentado virou caixa</h3>
+<p>Descontos no INSS quadruplicaram até <b>R$ 3,5 bilhões</b> sob fiscalização federal.</p>
+      </div>
+      <div class="etapa">
+        <span class="etapa__num">04</span>
+        <h3>E quase ninguém pagou</h3>
+<p>Dos 24 condenados, <b>17 tiveram a pena extinta por indulto</b>. <b>Nenhum está preso.</b></p>
+      </div>
+    </div>
+
+    <div class="cta-linha">
+      <a href="#oferta" class="btn btn--principal" data-comprar>Quero o dossiê completo</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ COMO REBATER ═══════ -->
+<section class="sec sec--escura" data-anima>
+  <div class="container">
+    <div class="split">
+      <div class="split__texto">
+        <span class="eyebrow">O que foi tirado de você</span>
+        <h2 class="sec__titulo">A resposta<br>que te tiraram</h2>
+        <p class="sec__lead">Sempre vem o mesmo argumento pronto. O dossiê devolve o documento.</p>
+
+        <div class="simulacao">
+          <div class="simulacao__lado">
+            <span class="simulacao__rot">Ele vai dizer</span>
+            <p>“Que colapso? O PIB cresceu, o desemprego está no menor nível da série histórica.
+            Isso é IBGE, não é PT.”</p>
+          </div>
+          <div class="simulacao__lado simulacao__lado--voce">
+            <span class="simulacao__rot">Você responde</span>
+            <p>“Exatamente. Com a economia crescendo e arrecadação recorde, a dívida deveria
+            cair. Subiu de 76,3% para 78,7% do PIB.”</p>
+          </div>
+        </div>
+
+        <a href="#oferta" class="btn btn--principal btn--inline" data-comprar>Quero as respostas prontas</a>
+      </div>
+
+      <figure class="split__img">
+        <img src="assets/prova-rebater.png" alt="Página do dossiê com uma caixa Como Rebater"
+             loading="lazy" width="1088" height="1600">
+        <figcaption>Página 13 do dossiê</figcaption>
+      </figure>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ DENTRO DO LIVRO ═══════ -->
+<section class="sec" data-anima>
+  <div class="container">
+    <span class="eyebrow">Por dentro</span>
+    <h2 class="sec__titulo sec__titulo--centro">Não é um texto corrido.<br>É um dossiê visual.</h2>
+    <p class="sec__lead sec__lead--centro">Gráficos, fichas e mapas de conexão. Feito para ler em segundos.</p>
+
+    <figure class="vitrine">
+      <img src="assets/mockup-paginas.png" alt="Páginas internas do dossiê"
+           loading="lazy" width="2731" height="1888">
+    </figure>
+
+    <div class="galeria">
+      <figure>
+        <img src="assets/prova-grafico.png" alt="Página com gráfico de expansão das facções"
+             loading="lazy" width="1088" height="1600">
+        <figcaption>Gráficos com fonte e data</figcaption>
+      </figure>
+      <figure>
+        <img src="assets/prova-numeros.png" alt="Página final com todos os números do dossiê"
+             loading="lazy" width="1088" height="1600">
+        <figcaption>Todos os números em uma página</figcaption>
+      </figure>
+    </div>
+
+    <div class="cta-linha">
+      <a href="#oferta" class="btn btn--principal" data-comprar>Quero o dossiê completo</a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ CELULAR ═══════ -->
+<section class="sec sec--escura" data-anima>
+  <div class="container">
+    <div class="split split--inverso">
+      <figure class="split__img split__img--celular">
+        <img src="assets/livro-2-espelhado.png" alt="O dossiê em PDF"
+             loading="lazy" width="2145" height="2966">
+      </figure>
+
+      <div class="split__texto">
+        <span class="eyebrow">Onde você quiser</span>
+        <h2 class="sec__titulo">No bolso, na hora<br>da discussão</h2>
+        <p class="sec__lead">Abre em qualquer celular, sem aplicativo. Acha o número, mostra a fonte.</p>
+        <ul class="lista-check">
+          <li>Download vitalício, sem assinatura</li>
+          <li>Legível na tela do celular</li>
+          <li>Índice para achar o capítulo</li>
+        </ul>
+        <a href="#oferta" class="btn btn--principal btn--inline" data-comprar>Quero levar comigo</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ CAPÍTULOS ═══════ -->
+<section class="sec sec--escura" data-anima>
+  <div class="container">
+    <span class="eyebrow">O que você recebe</span>
+    <h2 class="sec__titulo">20 capítulos, sete partes</h2>
+
+    <div class="partes">
+      <div class="parte"><h3><span>Parte I</span> As promessas</h3><p>O contrato de 2022 e a promessa quebrada por escrito.</p></div>
+      <div class="parte"><h3><span>Parte II</span> A conta do governo</h3><p>Dívida, déficit, carga tributária recorde e juros a 15%.</p></div>
+      <div class="parte"><h3><span>Parte III</span> O dinheiro que sumiu</h3><p>Correios, obras paradas e emendas parlamentares.</p></div>
+      <div class="parte"><h3><span>Parte IV</span> O país sem controle</h3><p>Facções, interferência eleitoral e o que é federal.</p></div>
+      <div class="parte"><h3><span>Parte V</span> O Brasil no mundo</h3><p>Tarifaço, Venezuela, Israel e Ucrânia.</p></div>
+      <div class="parte"><h3><span>Parte VI</span> O arquivo dos escândalos</h3><p>INSS, Banco Master, mensalão e a prisão de Lula.</p></div>
+      <div class="parte parte--destaque"><h3><span>Parte VII</span> Munição</h3><p>Todos os números numa página — e a lista do que <strong>nunca</strong> dizer.</p></div>
+    </div>
+
+    <div class="cta-linha">
+      <a href="#oferta" class="btn btn--principal" data-comprar>Quero começar a ler hoje</a>
+    </div>
+  </div>
+</section>
+
+
+<!-- ═══════ ESPIADA ═══════ -->
+<section class="sec" data-anima>
+  <div class="container container--estreito">
+    <span class="eyebrow">Espiada</span>
+    <h2 class="sec__titulo sec__titulo--centro">A página que eles preferem<br>que você nunca veja</h2>
+    <p class="sec__lead sec__lead--centro">Todos os números em duas folhas — e o que <strong>nunca</strong> dizer.</p>
+
+    <figure class="espiada" data-espiada>
+      <img src="assets/prova-numeros.png" alt="Página de munição do dossiê" loading="lazy">
+      <figcaption class="espiada__selo">
+        <strong>Conteúdo do dossiê</strong>
+        <span>Disponível na versão completa</span>
+      </figcaption>
+    </figure>
+
+    <div class="cta-linha">
+      <a href="#oferta" class="btn btn--gigante" data-comprar>
+        Desbloquear por R$ 11,99
+        <span class="btn__sub">De R$ 30,00 · acesso imediato</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ PARA QUEM ═══════ -->
+<section class="sec" data-anima>
+  <div class="container">
+    <span class="eyebrow">Antes de comprar</span>
+    <h2 class="sec__titulo">Este dossiê é para você?</h2>
+    <div class="duas-colunas">
+      <div class="coluna coluna--sim">
+        <h3>É para você se…</h3>
+        <ul>
+          <li>Cansou de discutir no achismo</li>
+          <li>Quer dado com fonte, pronto para citar</li>
+          <li>Quer saber o que houve de 2023 a 2026</li>
+          <li>Prefere argumento que não cai</li>
+        </ul>
+      </div>
+      <div class="coluna coluna--nao">
+        <h3>Não é para você se…</h3>
+        <ul>
+          <li>Procura boato viral</li>
+          <li>Quer acusação sem prova</li>
+          <li>Não liga se a informação resiste a checagem</li>
+          <li>Espera panfleto, não dossiê</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ OFERTA ═══════ -->
+<section class="sec sec--oferta" id="oferta" data-anima>
+  <div class="container">
+    <div class="oferta">
+      <div class="oferta__capa">
+        <img src="assets/livro-3-conjunto.png" alt="Dossiê Lula e o PT"
+             loading="lazy" width="2917" height="2799">
+      </div>
+
+      <div class="oferta__corpo">
+        <span class="oferta__tarja">Oferta de lançamento</span>
+        <h2 class="oferta__titulo">A Conta Chegou</h2>
+        <p class="oferta__desc">Dossiê completo em PDF · 57 páginas · 20 capítulos</p>
+
+        <div class="contador" data-contador>
+          <span class="contador__rot" data-urgencia>
+            <span class="pisca pisca--pequeno"></span>
+            A oferta de lançamento termina em
+          </span>
+
+          <div class="contador__digitos">
+            <div><strong data-horas>00</strong><span>horas</span></div>
+            <div class="contador__sep">:</div>
+            <div><strong data-min>00</strong><span>min</span></div>
+            <div class="contador__sep">:</div>
+            <div><strong data-seg>00</strong><span>seg</span></div>
+          </div>
+
+          <div class="contador__barra" aria-hidden="true">
+            <span data-barra-tempo></span>
+          </div>
+
+          <p class="contador__aviso" data-aviso>
+            Depois desse prazo, o dossiê volta ao preço cheio de R$ 30,00.
+          </p>
+        </div>
+
+        <div class="preco">
+          <span class="preco__de">De <s>R$ 30,00</s></span>
+          <div class="preco__por">
+            <span class="preco__moeda">R$</span>
+            <span class="preco__valor">11,99</span>
+          </div>
+          <span class="preco__parcela">à vista, no Pix ou cartão</span>
+        </div>
+
+        <a href="#" class="btn btn--gigante" data-comprar>
+          Comprar agora
+          <span class="btn__sub">Acesso imediato após a confirmação</span>
+        </a>
+
+        <ul class="lista-check lista-check--centro">
+          <li>PDF para celular e computador</li>
+          <li>Download vitalício, sem assinatura</li>
+          <li>Todas as fontes citadas</li>
+        </ul>
+
+        <div class="garantia">
+          <strong>Garantia de 7 dias.</strong> Não gostou, pede reembolso e devolvemos 100%.
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ FAQ ═══════ -->
+<section class="sec" data-anima>
+  <div class="container container--estreito">
+    <span class="eyebrow">Dúvidas</span>
+    <h2 class="sec__titulo">Perguntas frequentes</h2>
+
+    <div class="faq" data-faq>
+      <details class="faq__item">
+        <summary>Como recebo o material?</summary>
+        <p>O link chega no seu e-mail assim que o pagamento é confirmado. PDF comum, abre em
+        qualquer aparelho.</p>
+      </details>
+      <details class="faq__item">
+        <summary>As informações são confiáveis?</summary>
+        <p>Banco Central, Tesouro, IBGE, TCU, Polícia Federal e STF, com órgão e data em cada
+        número. Há até um capítulo com as alegações que <em>não</em> se sustentam.</p>
+      </details>
+      <details class="faq__item">
+        <summary>É um livro partidário?</summary>
+        <p>Crítica ao governo, sim. Mas nenhuma acusação vira condenação — é isso que faz o
+        argumento resistir a checagem.</p>
+      </details>
+      <details class="faq__item">
+        <summary>Preciso entender de política ou economia?</summary>
+        <p>Não. Linguagem direta e gráficos feitos para ler em segundos.</p>
+      </details>
+      <details class="faq__item">
+        <summary>Posso pedir reembolso?</summary>
+        <p>Sim, 7 dias para devolução integral, sem precisar justificar.</p>
+      </details>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ FECHAMENTO ═══════ -->
+<section class="sec sec--fechamento" data-anima>
+  <div class="container container--estreito">
+    <img src="assets/livro-1-angulo.png" alt="" class="fechamento__capa" loading="lazy">
+    <h2 class="sec__titulo sec__titulo--centro">Eles apostaram que<br>você não ia procurar.</h2>
+    <p class="sec__lead sec__lead--centro">
+      Contavam que a manchete de um dia bastaria. São 57 páginas do que nunca voltou ao ar.
+    </p>
+    <div class="cta-linha">
+      <a href="#oferta" class="btn btn--gigante" data-comprar>
+        Quero o dossiê por R$ 11,99
+        <span class="btn__sub">De R$ 30,00 · oferta por tempo limitado</span>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- ═══════ RODAPÉ ═══════ -->
+<footer class="rodape">
+  <div class="container">
+    <p class="rodape__marca">A Conta Chegou · Dossiê 2026</p>
+    <p class="rodape__legal">
+      Análise política e jornalística baseada em documentos públicos, decisões judiciais e dados
+      oficiais. Ninguém é apontado como criminoso sem decisão judicial. Sem vínculo com partidos,
+      candidaturas ou órgãos públicos.
+    </p>
+    <p class="rodape__links">
+      <a href="#">Termos de uso</a> · <a href="#">Política de privacidade</a> · <a href="#">Contato</a>
+    </p>
+  </div>
+</footer>
+
+<!-- ═══════ BARRA FIXA ═══════ -->
+<div class="barra-fixa" data-barra>
+  <img src="assets/livro-1-angulo.png" alt="" class="barra-fixa__capa">
+  <div class="barra-fixa__preco"><s>R$ 30,00</s><strong>R$ 11,99</strong></div>
+  <a href="#oferta" class="btn btn--barra" data-comprar>Comprar</a>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
